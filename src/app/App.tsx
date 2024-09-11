@@ -9,6 +9,8 @@ import "./styles/index.scss"
 const App = () => {
   const {theme} = useTheme()
 
+  
+
   return (
     <div className={classNames("app", {hovered: true, border: true}, [theme])}>
       <Suspense fallback="">
