@@ -1,11 +1,13 @@
 .clear {
+  color: var(--primary-color);
   padding: 0;
   border: none;
   background: none;
 }
 
 .outline {
+  color: var(--primary-color);
   padding: 10px 15px;
-  border: #000  1px solid;
+  border: var(--primary-color)  1px solid;
   background: none;
 }
